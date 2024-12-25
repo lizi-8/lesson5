@@ -1,0 +1,30 @@
+.container{
+    width: 1336px;
+    height: 178px;
+    margin: 0 auto;
+}
+.text-block{
+    text-align: center;
+    width: 760px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+h5{
+
+}
+h1{
+
+}
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 908px;
+    align-content: space-between;
+}
+.box{
+    width: 310px;
+    height: 430px;
+    border: 1px solid #EAECF0
+
+}
