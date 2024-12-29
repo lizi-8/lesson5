@@ -1,6 +1,5 @@
 .container{
     width: 1336px;
-    height: 178px;
     margin: 0 auto;
 }
 .text-block{
@@ -11,36 +10,29 @@
     margin-top: 80px;
 }
 h1{
-    font-family: 'Inter 28pt';
     font-size: 54px;
     color: #282828;
 
 }
 h4{
-    font-family: 'Inter 28pt';
     margin-bottom: 4px;
     color: #282828;
     font-size: 18px;
     font-weight: 600;
 }
 h5{
-    font-family: 'Inter 28pt';
     font-size: 16px;
     color: #282828;
-
 }
 h6{
-    font-family: 'Inter 28pt';
     margin-bottom: 8px;
     color: #3E3E59;
 }
 span{
-    font-family: 'Inter 28pt';
     color: #5F6980;
     font-size: 14px;
 }
 p{
-    font-family: 'Inter 28pt';
     font-size: 20px;
     color: #5F6980;
 }
@@ -55,7 +47,9 @@ p{
     width: 310px;
     height: 430px;
     border: 1px solid #EAECF0
-
+}
+.font{
+    font-family: 'Inter 28pt';
 }
 .image{
     width: 310px;
@@ -77,16 +71,68 @@ p{
     align-items: center;
     margin: 9px;
 }
-.main-footer{
-    margin-top: 48px;
-    color: #53535354;
-    width: 100%;
+.footer-block{
+    background-color: #53535354;
+    width: 1440px;
     height: 460px;
+    margin: 0 auto;
+    margin-top: 48px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.block-1{
+.main-div{
+    width: 1128px;
+    display: flex;
+    justify-content: space-between;
+}
+.left-div{
     width: 318.05px;
     height: 221px;
-    top: 108px;
-    border:1px solid #3E3E59
+    font-weight: 400;
+}
+.contact-div{
+    margin-top: 28px;
+}
+.footer-text{
+    margin-top: 32px;
+    width: 306.05px;
+    height: 73px;
+    font-size: 14px;
+}
+.middle-left-div{
+    width: 136px;
+    height: 223px;
+}
+.middle-right-div{
+    width: 199px;
+    height: 223px;
+}
+.right-div{
+    width: 107px;
+    height: 127.45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer-titles{
+    color: #1E1E1E;
+    font-size: 20px;
+    font-weight: 600px;
+}
+.ul-navigation{
+    margin-top: 71px;
+    display: flex;
+    flex-direction: column;
+}
+.list{
+    margin-bottom: 15px;
+}
+.nav-list{
+    margin-top: 71px;
+    display: flex;
+    flex-direction: column;
+}
+.text-font{
+    color: #535353;
 }
